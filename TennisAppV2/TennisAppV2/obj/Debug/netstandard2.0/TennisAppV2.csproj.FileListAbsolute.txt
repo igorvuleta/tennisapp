@@ -1,0 +1,16 @@
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\Src\Presentation\Pages\CreatePlayer\CreatePlayerPage.xaml.g.cs
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\Src\Presentation\Pages\CreatePlayer\CreatePlayerPageViewCell.xaml.g.cs
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\Src\Presentation\Pages\Main\MainPage.xaml.g.cs
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\Src\Presentation\Pages\Menu\MenuPage.xaml.g.cs
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\TennisAppV2.csproj.CoreCompileInputs.cache
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\TennisAppV2.AssemblyInfoInputs.cache
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\TennisAppV2.AssemblyInfo.cs
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\TennisAppV2.csprojAssemblyReference.cache
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\TennisAppV2.dll
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\TennisAppV2.pdb
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\bin\Debug\netstandard2.0\TennisAppV2.deps.json
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\bin\Debug\netstandard2.0\TennisAppV2.dll
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\bin\Debug\netstandard2.0\TennisAppV2.pdb
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\Src\Presentation\Pages\PlayerDetail\PlayerDetailsPage.xaml.g.cs

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TennisAppV2.Src.Presentation.Pages.PlayerDetail.PlayerDetailsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:customcell1="clr-namespace:TennisAppV2.Src.Presentation.Pages.CreatePlayer">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <StackLayout>
+                <ListView HasUnevenRows="True" ItemsSource="{Binding PlayerListView}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+
+                            <customcell1:CreatePlayerPageViewCell />
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
