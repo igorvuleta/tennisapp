@@ -20,11 +20,19 @@ namespace TennisAppV2.Src.Data.Database
         private void SetupDatabase()
         {
             _Database.CreateTableAsync<Player>().Wait();
+            _Database.CreateTableAsync<Court>().Wait();
         }
 
         public async Task SavePlayer(Player Player)
         {
             await _Database.InsertAsync(Player);
+            
+
+        }
+        public async Task SaveCourt(Court Court)
+        {
+            await _Database.InsertAsync(Court);
+
 
         }
         public async Task UpdatePlayer(Player Player)

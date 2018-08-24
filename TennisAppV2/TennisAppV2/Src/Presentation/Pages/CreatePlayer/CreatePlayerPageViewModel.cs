@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using TennisAppV2.Src.Common.Models;
 using TennisAppV2.Src.Presentation.MvvM;
+using TennisAppV2.Src.Presentation.Pages.PlayerDetail;
 using Xamarin.Forms;
 
 namespace TennisAppV2.Src.Presentation.Pages.CreatePlayer
@@ -85,23 +86,16 @@ namespace TennisAppV2.Src.Presentation.Pages.CreatePlayer
             });
             LoadPlayer = new Command(async () =>
             {
-                //foreach (var item in await App.Database.GetAllPlayer())
-                //{
-                //    PlayerListView.Add(new CreatePlayerPageViewCellViewModel(item));
-                //    Debug.WriteLine("===================Player Loaded=====================");
-                //}
-                LoadPlayerData();
+                foreach (var item in await App.Database.GetAllPlayer())
+                {
+                    PlayerListView.Add(new CreatePlayerPageViewCellViewModel(item));
+                    Debug.WriteLine("===================Player Loaded=====================");
+                }
+                
 
             });
         }
-        public async void LoadPlayerData()
-        {
-            foreach (var item in await App.Database.GetAllPlayer())
-            {
-                PlayerListView.Add(new CreatePlayerPageViewCellViewModel(item));
-                Debug.WriteLine("===================Player Loaded=====================");
-            }
-        }
+       
 
 
         public async Task CreatePlayerInfo()

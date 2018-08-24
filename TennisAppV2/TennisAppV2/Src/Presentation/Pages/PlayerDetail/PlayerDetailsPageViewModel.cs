@@ -1,15 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Text;
 using TennisAppV2.Src.Common.Models;
 using TennisAppV2.Src.Presentation.MvvM;
 using TennisAppV2.Src.Presentation.Pages.CreatePlayer;
+using Xamarin.Forms;
 
 namespace TennisAppV2.Src.Presentation.Pages.PlayerDetail
 {
     public class PlayerDetailsPageViewModel : BaseViewModel
     {
+
+        public ObservableCollection<PlayerDetailsPageViewCellViewModel> _DetailPlayerListView = new ObservableCollection<PlayerDetailsPageViewCellViewModel>();
+        public ObservableCollection<PlayerDetailsPageViewCellViewModel> DetailPlayerListView
+        {
+            get { return _DetailPlayerListView; }
+            set
+            {
+                Debug.WriteLine("--------------- AllPlayerListView ----------- added " + value.ToString());
+                SetProperty(ref _DetailPlayerListView, value);
+            }
+        }
         private string _FirstName;
         public string FirstName
         {
@@ -53,16 +66,29 @@ namespace TennisAppV2.Src.Presentation.Pages.PlayerDetail
             get { return _Country; }
             set { SetProperty(ref _Country, value); }
         }
+
+
        
-        
-     
         public PlayerDetailsPageViewModel()
         {
-            
 
-            var instance = new CreatePlayerPageViewModel();
-            instance.LoadPlayerData();
+            LoadPlayerData();
+
         }
+        public async void LoadPlayerData()
+        {
+            foreach (var item in await App.Database.GetAllPlayer())
+            {
+
+                DetailPlayerListView.Add(new PlayerDetailsPageViewCellViewModel(item));
+                Debug.WriteLine("===================Player Loaded=====================");
+            }
+
+
+        }
+
+
+
 
 
     }

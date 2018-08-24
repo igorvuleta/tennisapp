@@ -3,17 +3,20 @@
     x:Class="TennisAppV2.Src.Presentation.Pages.PlayerDetail.PlayerDetailsPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:customcell1="clr-namespace:TennisAppV2.Src.Presentation.Pages.CreatePlayer">
+    xmlns:customcell11="clr-namespace:TennisAppV2.Src.Presentation.Pages.PlayerDetail">
     <ContentPage.Content>
         <StackLayout>
 
 
-            <StackLayout>
-                <ListView HasUnevenRows="True" ItemsSource="{Binding PlayerListView}">
+            <StackLayout VerticalOptions="FillAndExpand">
+                <ListView
+                    HasUnevenRows="True"
+                    ItemTapped="ListItemClicked"
+                    ItemsSource="{Binding DetailPlayerListView}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
 
-                            <customcell1:CreatePlayerPageViewCell />
+                            <customcell11:PlayerDetailsPageViewCell />
 
                         </DataTemplate>
                     </ListView.ItemTemplate>

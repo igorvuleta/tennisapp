@@ -7,6 +7,8 @@
   <ItemGroup>
     <Compile Remove="MainPage.xaml.cs" />
     <Compile Remove="Src\Data\DatabasePath\DatabasePath.cs" />
+    <Compile Remove="Src\Presentation\Pages\Menu\CourtPageViewModel.cs" />
+    <Compile Remove="Src\Presentation\Pages\PlayerDetail\Details\DetailsPage.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Src\Presentation\Pages\CreateCourt\CreateCourtPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Src\Presentation\Pages\CreateCourt\CreateCourtPageViewCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Src\Presentation\Pages\CreatePlayer\CreatePlayerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -31,7 +39,13 @@
     <EmbeddedResource Update="Src\Presentation\Pages\Menu\MenuPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Src\Presentation\Pages\PlayerDetail\Details\DetailsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Src\Presentation\Pages\PlayerDetail\PlayerDetailsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Src\Presentation\Pages\PlayerDetail\PlayerDetailsPageViewCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

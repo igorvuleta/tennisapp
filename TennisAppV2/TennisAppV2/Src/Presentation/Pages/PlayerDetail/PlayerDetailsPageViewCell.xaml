@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ViewCell
+    x:Class="TennisAppV2.Src.Presentation.Pages.PlayerDetail.PlayerDetailsPageViewCell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ViewCell.View>
+        <StackLayout>
+            <StackLayout>
+                <Label
+                    BackgroundColor="Azure"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="{Binding FirstName}"
+                    VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    BackgroundColor="Azure"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="{Binding LastName}"
+                    VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    BackgroundColor="Azure"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="{Binding Gender}"
+                    VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    BackgroundColor="Azure"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="{Binding DateOfBirth}"
+                    VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout />
+        </StackLayout>
+    </ViewCell.View>
+</ViewCell>
