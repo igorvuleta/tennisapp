@@ -17,3 +17,4 @@ C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\net
 C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\Src\Presentation\Pages\PlayerDetail\PlayerDetailsPageViewCell.xaml.g.cs
 C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\Src\Presentation\Pages\PlayerDetail\Details\DetailsPage.xaml.g.cs
 C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\Src\Presentation\Pages\CreateCourt\CreateCourtPage.xaml.g.cs
+C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2\obj\Debug\netstandard2.0\Src\Presentation\Pages\CreateCourt\CreateCourtPageViewCell.xaml.g.cs

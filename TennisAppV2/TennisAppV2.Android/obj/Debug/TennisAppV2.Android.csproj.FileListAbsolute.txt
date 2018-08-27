@@ -102,7 +102,6 @@ C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2.Android\obj\D
 C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2.Android\bin\Debug\TennisAppV2.Android.dll
-C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2.Android\obj\Debug\linksrc\TennisAppV2.pdb
 C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2.Android\obj\Debug\linksrc\TennisAppV2.Android.dll.mdb
 C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\i.vuleta\source\repos\TennisAppV2\TennisAppV2\TennisAppV2.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
